@@ -1,0 +1,17 @@
+/nbproject/*
+.idea/*
+
+/tmp/*
+/private/app/config/config.local.neon
+/private/vendor/*
+!/private/vendor/others
+/private/log/*
+/private/temp/*
+/www/vendor/*
+!/www/vendor/others
+
+.DS_Store
+!.htaccess
+!web.config
+
+/www/data/*

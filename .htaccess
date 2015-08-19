@@ -1,0 +1,6 @@
+# Nastavení použití www a přesměrování do adresáře
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^(www\.)?example\.com$
+RewriteRule ^$ www/ [L]
+#RewriteCond %{HTTP_HOST} ^(www\.)?example\.com$
+RewriteRule (.*) www/$1 [L]

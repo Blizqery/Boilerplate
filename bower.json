@@ -1,0 +1,24 @@
+{
+  "name": "CleanCode",
+  "version": "0.0.0",
+  "authors": [
+    "Ladislav Tomsa <ladislav.tomsa@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.1",
+    "nette.ajax.js": "~2.0.0",
+    "nette-forms": "~2.3.0",
+    "dateInput": "voda/dateInput#~1.0.7",
+    "jquery-ui": "~1.11.3",
+    "moment": "~2.10.2",
+    "jqueryui-timepicker-addon": "~1.5.5"
+  }
+}
