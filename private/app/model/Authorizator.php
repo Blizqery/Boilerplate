@@ -72,8 +72,7 @@ class Authorizator extends NS\Permission implements NS\IAuthorizator
     private function setRoles()
     {
         $this->addRole(self::GUEST);
-        $this->addRole(self::EMPLOYEE, self::GUEST);
-        $this->addRole(self::USER, self::EMPLOYEE);
+        $this->addRole(self::USER, self::GUEST);
         $this->addRole(self::MODERATOR, self::USER);
         $this->addRole(self::ADMIN, self::MODERATOR);
     }
@@ -84,6 +83,6 @@ class Authorizator extends NS\Permission implements NS\IAuthorizator
     private function setResources()
     {
         // Administrace
-        $this->setResources("Admin:*");
+        $this->addResource("Admin:*");
     }
 }
