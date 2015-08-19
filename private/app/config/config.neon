@@ -31,9 +31,19 @@ services:
     # Models
 	- App\Model\UserManager
 	- App\Authorizator
+	- App\Model\Tables\Connection
+	- App\Model\Tables\ErrorLog
+	- App\Model\Tables\File
+	- App\Model\Tables\Guest
+	- App\Model\Tables\Lang
+	- App\Model\Tables\OperatingSystem
+	- App\Model\Tables\Router
+	- App\Model\Tables\User
+	- App\Model\Tables\WebBrowser
 
 	# Forms
 	- App\AdminModule\Forms\ISignFormFactory
+
 	# Grids
 
 	# Other
